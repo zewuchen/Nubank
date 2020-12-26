@@ -24,6 +24,7 @@
 		CB7CEE912597E10D00A465EE /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB7CEE872597E10D00A465EE /* OpenSans-BoldItalic.ttf */; };
 		CB7CEE922597E10D00A465EE /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB7CEE882597E10D00A465EE /* OpenSans-LightItalic.ttf */; };
 		CB7CEE932597E10D00A465EE /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB7CEE892597E10D00A465EE /* OpenSans-ExtraBold.ttf */; };
+		CB7CEE9A2597E62600A465EE /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CEE992597E62600A465EE /* DesignSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		CB7CEE872597E10D00A465EE /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		CB7CEE882597E10D00A465EE /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
 		CB7CEE892597E10D00A465EE /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CB7CEE992597E62600A465EE /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				CB3E7FF02597C88800D5A31E /* Application */,
-				CB7CEE772597DBCF00A465EE /* Extensions */,
+				CB7CEE772597DBCF00A465EE /* Extensions & Utils */,
 				CB7CEE7F2597E0DE00A465EE /* Fonts */,
 				CB3E7FDE2597C7D700D5A31E /* ViewController.swift */,
 				CB3E7FE32597C7D800D5A31E /* Assets.xcassets */,
@@ -98,13 +100,13 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		CB7CEE772597DBCF00A465EE /* Extensions */ = {
+		CB7CEE772597DBCF00A465EE /* Extensions & Utils */ = {
 			isa = PBXGroup;
 			children = (
-				CB7CEE782597DBF600A465EE /* UIColor+Extensions.swift */,
-				CB7CEE7C2597E05E00A465EE /* UIFont+Extensions.swift */,
+				CB7CEE962597E51100A465EE /* Extensions */,
+				CB7CEE992597E62600A465EE /* DesignSystem.swift */,
 			);
-			path = Extensions;
+			path = "Extensions & Utils";
 			sourceTree = "<group>";
 		};
 		CB7CEE7F2597E0DE00A465EE /* Fonts */ = {
@@ -122,6 +124,15 @@
 				CB7CEE822597E10D00A465EE /* OpenSans-SemiBoldItalic.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CB7CEE962597E51100A465EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CB7CEE782597DBF600A465EE /* UIColor+Extensions.swift */,
+				CB7CEE7C2597E05E00A465EE /* UIFont+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7CEE9A2597E62600A465EE /* DesignSystem.swift in Sources */,
 				CB3E7FDF2597C7D700D5A31E /* ViewController.swift in Sources */,
 				CB3E7FDB2597C7D700D5A31E /* AppDelegate.swift in Sources */,
 				CB3E7FDD2597C7D700D5A31E /* SceneDelegate.swift in Sources */,
