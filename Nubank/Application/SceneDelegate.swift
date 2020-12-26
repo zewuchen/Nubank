@@ -17,8 +17,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let controller = UIViewController()
         controller.view.backgroundColor = UIColor.Nubank.purple
+        controller.title = "Nubank"
         let navigation = UINavigationController(rootViewController: controller)
-        
         window?.rootViewController = navigation
         window?.makeKeyAndVisible()
     }
