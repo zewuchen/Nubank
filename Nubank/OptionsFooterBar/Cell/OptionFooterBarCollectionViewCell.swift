@@ -13,6 +13,12 @@ class OptionFooterBarCollectionViewCell: UICollectionViewCell {
         didSet {
             self.icon.image = optionViewModel.icon
             self.titleLabel.text = optionViewModel.title
+            
+            if(optionViewModel.title.count == 11) {
+                self.titleLabel.font = UIFont.OpenSans.optionFooterBarMinimum
+            } else {
+                self.titleLabel.font = UIFont.OpenSans.optionFooterBar
+            }
         }
     }
     

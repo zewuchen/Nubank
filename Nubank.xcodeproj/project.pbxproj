@@ -31,6 +31,7 @@
 		CB7CEEB12598F88A00A465EE /* OptionFooterBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CEEB02598F88A00A465EE /* OptionFooterBarViewModel.swift */; };
 		CB7CEEB82598FDE000A465EE /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CEEB72598FDE000A465EE /* Identifier.swift */; };
 		CB7CEEC42599250100A465EE /* optionsFooter.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7CEEC32599250100A465EE /* optionsFooter.json */; };
+		CB7CEEC92599269200A465EE /* ParserJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CEEC82599269200A465EE /* ParserJson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		CB7CEEB02598F88A00A465EE /* OptionFooterBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionFooterBarViewModel.swift; sourceTree = "<group>"; };
 		CB7CEEB72598FDE000A465EE /* Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
 		CB7CEEC32599250100A465EE /* optionsFooter.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = optionsFooter.json; sourceTree = "<group>"; };
+		CB7CEEC82599269200A465EE /* ParserJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserJson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				CB7CEE7F2597E0DE00A465EE /* Fonts */,
 				CB7CEE9E2598F27E00A465EE /* Main */,
 				CB7CEEA02598F30600A465EE /* OptionsFooterBar */,
+				CB7CEEC72599264600A465EE /* Services */,
 				CB3E7FE32597C7D800D5A31E /* Assets.xcassets */,
 				CB3E7FE52597C7D800D5A31E /* LaunchScreen.storyboard */,
 				CB3E7FE82597C7D800D5A31E /* Info.plist */,
@@ -209,6 +212,14 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		CB7CEEC72599264600A465EE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CB7CEEC82599269200A465EE /* ParserJson.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -317,6 +328,7 @@
 				CB3E7FDF2597C7D700D5A31E /* MainViewController.swift in Sources */,
 				CB7CEEB82598FDE000A465EE /* Identifier.swift in Sources */,
 				CB3E7FDB2597C7D700D5A31E /* AppDelegate.swift in Sources */,
+				CB7CEEC92599269200A465EE /* ParserJson.swift in Sources */,
 				CB7CEEAE2598F85200A465EE /* OptionFooterBar.swift in Sources */,
 				CB3E7FDD2597C7D700D5A31E /* SceneDelegate.swift in Sources */,
 				CB7CEEA52598F41C00A465EE /* OptionFooterBarCollectionViewCell.swift in Sources */,

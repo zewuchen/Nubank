@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct OptionFooterBar: Decodable {
+struct OptionFooterBar: Codable {
     let title: String
     let icon: String
 }

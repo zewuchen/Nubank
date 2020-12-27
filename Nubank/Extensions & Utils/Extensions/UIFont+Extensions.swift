@@ -54,5 +54,10 @@ extension UIFont {
         static var optionFooterBar: UIFont {
             return UIFont(name: "OpenSans-Regular", size: 14) ?? systemFont(ofSize: 14)
         }
+        
+        static var optionFooterBarMinimum: UIFont {
+            return UIFont(name: "OpenSans-Regular", size: 11) ?? systemFont(ofSize: 11)
+        }
+        
     }
 }
