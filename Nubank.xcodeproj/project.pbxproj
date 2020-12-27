@@ -25,6 +25,11 @@
 		CB7CEE922597E10D00A465EE /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB7CEE882597E10D00A465EE /* OpenSans-LightItalic.ttf */; };
 		CB7CEE932597E10D00A465EE /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB7CEE892597E10D00A465EE /* OpenSans-ExtraBold.ttf */; };
 		CB7CEE9A2597E62600A465EE /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CEE992597E62600A465EE /* DesignSystem.swift */; };
+		CB7CEEA52598F41C00A465EE /* OptionFooterBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CEEA42598F41C00A465EE /* OptionFooterBarCollectionViewCell.swift */; };
+		CB7CEEAA2598F4C400A465EE /* ViewCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CEEA92598F4C400A465EE /* ViewCodable.swift */; };
+		CB7CEEAE2598F85200A465EE /* OptionFooterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CEEAD2598F85200A465EE /* OptionFooterBar.swift */; };
+		CB7CEEB12598F88A00A465EE /* OptionFooterBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CEEB02598F88A00A465EE /* OptionFooterBarViewModel.swift */; };
+		CB7CEEB82598FDE000A465EE /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CEEB72598FDE000A465EE /* Identifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +53,11 @@
 		CB7CEE882597E10D00A465EE /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
 		CB7CEE892597E10D00A465EE /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		CB7CEE992597E62600A465EE /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		CB7CEEA42598F41C00A465EE /* OptionFooterBarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionFooterBarCollectionViewCell.swift; sourceTree = "<group>"; };
+		CB7CEEA92598F4C400A465EE /* ViewCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodable.swift; sourceTree = "<group>"; };
+		CB7CEEAD2598F85200A465EE /* OptionFooterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionFooterBar.swift; sourceTree = "<group>"; };
+		CB7CEEB02598F88A00A465EE /* OptionFooterBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionFooterBarViewModel.swift; sourceTree = "<group>"; };
+		CB7CEEB72598FDE000A465EE /* Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +91,11 @@
 			isa = PBXGroup;
 			children = (
 				CB3E7FF02597C88800D5A31E /* Application */,
+				CB7CEEA82598F4AB00A465EE /* Protocols */,
 				CB7CEE772597DBCF00A465EE /* Extensions & Utils */,
 				CB7CEE7F2597E0DE00A465EE /* Fonts */,
 				CB7CEE9E2598F27E00A465EE /* Main */,
+				CB7CEEA02598F30600A465EE /* OptionsFooterBar */,
 				CB3E7FE32597C7D800D5A31E /* Assets.xcassets */,
 				CB3E7FE52597C7D800D5A31E /* LaunchScreen.storyboard */,
 				CB3E7FE82597C7D800D5A31E /* Info.plist */,
@@ -105,6 +117,7 @@
 			children = (
 				CB7CEE962597E51100A465EE /* Extensions */,
 				CB7CEE992597E62600A465EE /* DesignSystem.swift */,
+				CB7CEEB72598FDE000A465EE /* Identifier.swift */,
 			);
 			path = "Extensions & Utils";
 			sourceTree = "<group>";
@@ -141,6 +154,48 @@
 				CB3E7FDE2597C7D700D5A31E /* MainViewController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		CB7CEEA02598F30600A465EE /* OptionsFooterBar */ = {
+			isa = PBXGroup;
+			children = (
+				CB7CEEA32598F33F00A465EE /* Model */,
+				CB7CEEA22598F33C00A465EE /* ViewModel */,
+				CB7CEEA12598F32A00A465EE /* Cell */,
+			);
+			path = OptionsFooterBar;
+			sourceTree = "<group>";
+		};
+		CB7CEEA12598F32A00A465EE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CB7CEEA42598F41C00A465EE /* OptionFooterBarCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CB7CEEA22598F33C00A465EE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CB7CEEB02598F88A00A465EE /* OptionFooterBarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CB7CEEA32598F33F00A465EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB7CEEAD2598F85200A465EE /* OptionFooterBar.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB7CEEA82598F4AB00A465EE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CB7CEEA92598F4C400A465EE /* ViewCodable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,10 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7CEEB12598F88A00A465EE /* OptionFooterBarViewModel.swift in Sources */,
 				CB7CEE9A2597E62600A465EE /* DesignSystem.swift in Sources */,
+				CB7CEEAA2598F4C400A465EE /* ViewCodable.swift in Sources */,
 				CB3E7FDF2597C7D700D5A31E /* MainViewController.swift in Sources */,
+				CB7CEEB82598FDE000A465EE /* Identifier.swift in Sources */,
 				CB3E7FDB2597C7D700D5A31E /* AppDelegate.swift in Sources */,
+				CB7CEEAE2598F85200A465EE /* OptionFooterBar.swift in Sources */,
 				CB3E7FDD2597C7D700D5A31E /* SceneDelegate.swift in Sources */,
+				CB7CEEA52598F41C00A465EE /* OptionFooterBarCollectionViewCell.swift in Sources */,
 				CB7CEE7D2597E05E00A465EE /* UIFont+Extensions.swift in Sources */,
 				CB7CEE792597DBF600A465EE /* UIColor+Extensions.swift in Sources */,
 			);

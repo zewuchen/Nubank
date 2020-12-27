@@ -50,5 +50,9 @@ extension UIFont {
         static var extraBoldItalic: UIFont {
             return UIFont(name: "OpenSans-ExtraBoldItalic", size: 10) ?? systemFont(ofSize: 10)
         }
+        
+        static var optionFooterBar: UIFont {
+            return UIFont(name: "OpenSans-Regular", size: 14) ?? systemFont(ofSize: 14)
+        }
     }
 }
