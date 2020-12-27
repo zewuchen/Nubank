@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Pix",
+        "icon" : "pix"
+    },
+    {
+        "title": "Pagar",
+        "icon" : "pay"
+    },
+    {
+        "title": "Indicar amigos",
+        "icon" : "invite"
+    },
+    {
+        "title": "Tranferir",
+        "icon" : "transfer"
+    },
+    {
+        "title": "Depositar",
+        "icon" : "deposit"
+    },
+    {
+        "title": "Empréstimos",
+        "icon" : "loan"
+    },
+    {
+        "title": "Cartão virtual",
+        "icon" : "virtual"
+    },
+    {
+        "title": "Recarga de celular",
+        "icon" : "celular"
+    },
+    {
+        "title": "Ajustar limite",
+        "icon" : "limit"
+    },
+    {
+        "title": "Bloquear cartão",
+        "icon" : "block"
+    },
+    {
+        "title": "Cobrar",
+        "icon" : "charge"
+    },
+    {
+        "title": "Dividir valor",
+        "icon" : "split"
+    },
+    {
+        "title": "Doação",
+        "icon" : "donation"
+    },
+    {
+        "title": "Me ajuda",
+        "icon" : "help"
+    }
+]

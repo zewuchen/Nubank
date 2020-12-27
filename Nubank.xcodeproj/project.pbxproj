@@ -30,6 +30,7 @@
 		CB7CEEAE2598F85200A465EE /* OptionFooterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CEEAD2598F85200A465EE /* OptionFooterBar.swift */; };
 		CB7CEEB12598F88A00A465EE /* OptionFooterBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CEEB02598F88A00A465EE /* OptionFooterBarViewModel.swift */; };
 		CB7CEEB82598FDE000A465EE /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7CEEB72598FDE000A465EE /* Identifier.swift */; };
+		CB7CEEC42599250100A465EE /* optionsFooter.json in Resources */ = {isa = PBXBuildFile; fileRef = CB7CEEC32599250100A465EE /* optionsFooter.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		CB7CEEAD2598F85200A465EE /* OptionFooterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionFooterBar.swift; sourceTree = "<group>"; };
 		CB7CEEB02598F88A00A465EE /* OptionFooterBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionFooterBarViewModel.swift; sourceTree = "<group>"; };
 		CB7CEEB72598FDE000A465EE /* Identifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = "<group>"; };
+		CB7CEEC32599250100A465EE /* optionsFooter.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = optionsFooter.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				CB3E7FF02597C88800D5A31E /* Application */,
+				CB7CEEC2259924D300A465EE /* Data */,
 				CB7CEEA82598F4AB00A465EE /* Protocols */,
 				CB7CEE772597DBCF00A465EE /* Extensions & Utils */,
 				CB7CEE7F2597E0DE00A465EE /* Fonts */,
@@ -198,6 +201,14 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		CB7CEEC2259924D300A465EE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CB7CEEC32599250100A465EE /* optionsFooter.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -267,6 +278,7 @@
 				CB3E7FE42597C7D800D5A31E /* Assets.xcassets in Resources */,
 				CB7CEE8D2597E10D00A465EE /* OpenSans-Regular.ttf in Resources */,
 				CB7CEE8C2597E10D00A465EE /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				CB7CEEC42599250100A465EE /* optionsFooter.json in Resources */,
 				CB7CEE932597E10D00A465EE /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
